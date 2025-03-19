@@ -1,0 +1,201 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333; /* Dark gray text color */
+  }
+  
+  header {
+      background-color: #333; /* Dark background*/
+      color: white; /* Text color */
+      padding: 20px;
+      text-align: center;
+  }
+  
+  header h1 {
+      font-size: 36px;
+      margin: 0;
+  }
+  
+  nav ul {
+      list-style: none; /* to remove bullets from the list */
+      padding: 0;
+      margin: 10px 0 0;
+  }
+  
+  nav ul li {
+      display: inline; /* shows list items horizontally */
+      margin: 0 15px;
+  }
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+      text-decoration: underline;
+  }
+  
+  section {
+      padding: 20px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff; /* white background */
+      border-radius: 8px; /* Round corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* a bit shadowy */
+  }
+  
+  h2 {
+      font-size: 28px; /* medium font size */
+      color: #444;
+      margin-bottom: 10px;
+  }
+  
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555; /* Medium gray for text */
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section ul li {
+    font-size: 16px;
+    margin: 10px 0; /* spacing between the list items */
+    color: #444; /* darker gray for list text */
+}
+
+section strong {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+  .gallery {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .gallery img {
+      width: 200px; /* Image width */
+      height: auto; /*Aspect ratio */
+      border: 3px solid #ddd; /* This adds a light gray border */
+      border-radius: 5px; /* Slightly rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* This adds a subtle shadow */
+  }
+  
+  table {
+      width: 100%; /* Full-width table */
+      border-collapse: collapse; /* Removes gaps between table cells */
+      margin-top: 10px;
+  }
+  
+  table th, table td {
+      border: 1px solid #ddd; /* Light gray borders */
+      padding: 10px; /* Padding inside cells */
+      text-align: left; /* Aligning text to the left */
+  }
+  
+  table th {
+      background-color: #333; /* Dark background for header row */
+      color: white; /* White text for header row */
+  }
+  
+  table tr:nth-child(even) {
+      background-color: #f2f2f2; /* Light gray background for even rows */
+  }
+  
+  form {
+      margin-top: 20px;
+  }
+  
+  form label {
+      font-size: 16px;
+      display: block; /* To ensure labels are on their own line */
+      margin-bottom: 5px;
+  }
+  
+  form input, form textarea, form button {
+      width: 100%; /* Full-width inputs, textarea, and button */
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ddd; /* Light gray border */
+      border-radius: 5px;
+      box-sizing: border-box; /* To include padding in width calculation */
+      font-size: 16px;
+  }
+  
+  form button {
+      background-color: #333; /* Dark background */
+      color: white; /* White text */
+      border: none;
+      cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  form button:hover {
+      background-color: #555; /* lighter background on hover */
+  }
+  
+  form input[type="radio"] {
+      width: auto; /* resets width for radio buttons */
+      margin-right: 5px;
+  }
+  
+  blockquote {
+      font-style: italic; /* italic text for the quote */
+      color: #666; /* light gray color */
+      border-left: 4px solid #333; /* left border for styling */
+      padding-left: 10px; /* adds padding inside the quote */
+      margin: 20px 0;
+  }
+  
+  /* Blocks with background */
+  .block {
+      background-color: #e9ecef; /* light gray background for blocks */
+      padding: 20px;
+      border-radius: 8px; /* Rounded corners */
+      margin-bottom: 20px;
+      text-align: center; /* centers the text */
+      color: #333; /* Dark text */
+  }
+  
+
+  footer {
+      background-color: #333; /* Dark background */
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+  }
+  
+  footer a {
+      color: #ffcc00;
+      text-decoration: none;
+  }
+  
+  footer a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Styling for blockquote element */
+blockquote {
+    font-style: italic; /* Italicizes the quote */
+    color: #555; /* Soft gray text color */
+    border-left: 4px solid #0077b6; /* Blue vertical line on the left */
+    padding-left: 10px; /* Adds space between the border and text */
+    margin: 20px 0; /* Adds vertical spacing */
+}
+
+cite {
+    display: block; /* Moves the author's name to a new line */
+    text-align: right; /* Aligns the author's name to the right */
+    font-size: 14px; /* Slightly smaller font size for the author's name */
+    color: #333; /* Darker gray color */
+}
