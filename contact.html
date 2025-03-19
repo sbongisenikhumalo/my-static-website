@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header section: Contains the page title and navigation menu -->
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section: Contact Form -->
+    <section>
+        <h2>Get in Touch</h2> <!-- Subheading for this section -->
+        <!-- Contact form -->
+        <form action="#"> <!-- The "action" attribute defines where the form data is sent -->
+            <!-- Email input field -->
+            <label for="email">Email:</label> <!-- Label for the email input -->
+            <input type="email" id="email" name="email" required> <!-- Email input field -->
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>        
+
+            <!-- Message input field -->
+            <label for="message">Message:</label> <!-- Label for the message textarea -->
+            <textarea id="message" name="message" rows="5" required></textarea> <!-- Textarea for message -->
+
+            <!-- Radio buttons to select the type of photography -->
+            <p>What type of photography do you like?</p>
+            <input type="radio" id="portrait" name="photography" value="Portrait">
+            <label for="portrait">Portrait</label> <!-- Radio button for Portrait -->
+            <input type="radio" id="landscape" name="photography" value="Landscape"> <!-- Radio button for Landscape -->
+            <label for="landscape">Landscape</label> <!-- Label for Landscape -->
+            
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 My Photography Website</p>
+    </footer>
+</body>
+</html>
