@@ -4,8 +4,7 @@ Welcome to the HTML & CSS Capstone Project — the foundation of your developer 
 
 ## 🌐 Project Overview
 
-This project consists of a homepage and at least two additional pages. These may include sections like "About Me", "Contact Details", or specific categories if the theme is based on a personal interest (e.g., recipe types like "Starters", "Main Courses", and "Desserts").
-
+This project consists of a homepage and at least two additional pages. These may include sections like "About Me", "Contact Details", or specific categories if the theme is based on a personal interest.
 ### 📄 Pages Included
 
 - `index.html` — Homepage and landing page of the website.
