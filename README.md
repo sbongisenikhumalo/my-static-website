@@ -1,6 +1,6 @@
 # HTML & CSS Capstone Project
 
-Welcome to the HTML & CSS Capstone Project — the foundation of your developer portfolio! This website acts as a multi-page showcase centered around a personal or hobby-related theme, complete with layout, imagery, basic styling, and semantic HTML structure.
+Welcome to the HTML & CSS Capstone Project — the foundation of a developer portfolio! This website acts as a multi-page showcase centered around a personal or hobby-related theme, complete with layout, imagery, basic styling, and semantic HTML structure.
 
 ## 🌐 Project Overview
 
